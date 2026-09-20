@@ -50,7 +50,7 @@ export default async function DashboardPage() {
             ))
             ) : (
             <Card className="col-span-full p-8 text-center text-zinc-500 text-sm">
-                No events found in database. Insert a row into your <code className="bg-zinc-100 px-1 py-0.5 rounded">events</code> table in Supabase to see it render here!
+                No events found in database. Insert a row into your <code className="bg-zinc-100 px-1 py-0.5 rounded">events</code> table in Supabase to see it render here.
             </Card>
             )}
         </div>
